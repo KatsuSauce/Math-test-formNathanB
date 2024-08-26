@@ -1,20 +1,56 @@
 <DOCTYPE html>
   <html lang="en-US"
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <head> 
+       <title>Unit 1</title>
+    </head>
+    <body>
+      <form>
+           First name:<input type="text"><br/>
+           Last name:<input type="text"><br/>
+      </form> <br/>
+     <!--`start`--> 
+      <form>
+          <p>How many apples would you have if you started off with 0 but gain 2apples for 6 days, 2 &times; 6?</p>
+            <input type="radio" name="apples" value="none">
+            0.<br/>
+            <input type="radio" name="apples" value="low">
+            2<br/>
+             <input type="radio" name="apples" value="med">
+             4<br/>
+            <input type="radio" name="apples" value="high">
+            5
+      </form>
+      <form>
+        <p>Little Johhny went to a bakery picked up his order, dozen donuts but they give one for the ride how does he has?</p>
+           <input type="radio" name="donuts" value="none">
+          11.<br/>
+          <input type="radio" name="donuts" value="low">
+          Fewer than 5<br/>
+          <input type="radio" name="donuts" value="med">
+            Dozen-12<br/>
+          <input type="radio" name="donuts" value="high">
+          Baker Dozen-13
+      </form>
+      <form>
+          <p>How many hours per week, but you watch tv 6hours the first day but then only watch tv for 3hours a day? Equation 3x &#43; 6</p>
+          <input type="radio" name="tvhours" value="none">
+          9hrs.<br/>
+            <input type="radio" name="tvhours" value="low">
+          18hrs<br/>
+          <input type="radio" name="tvhours" value="med">
+            15hrs<br/>
+            <input type="radio" name="tvhours" value="high">
+          24hr
+      </form>
+      <form>
+          24 is &gt; 5x -10. What is x show your work:<br/>
+          <textarea rows="10" cols="70">
+          Here is some default text.
+          </textarea>
+    </form>
+     <!--`end`-->
+   <form>
+      Submit when done:<br/>
+      <input type="submit">
+  </form>
 </html>
